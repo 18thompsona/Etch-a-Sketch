@@ -1,0 +1,40 @@
+body{
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container{
+    width: 1000px;
+    height: 1000px;
+    background-color: darkblue;
+    margin: auto;
+}
+
+.options{
+    width: 1000px;
+    height: 200px;
+    background-color: blue;
+    margin: auto;
+}
+
+.subcontainer{
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+}
+
+.pixel{
+    background-color: wheat;
+    width: 10px;
+    height: 10px;
+}
+
+.black{
+    background-color: black;
+}
+
+.options{
+    color: white;
+}
