@@ -10,13 +10,24 @@ body{
     height: 1000px;
     background-color: darkblue;
     margin: auto;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
 }
 
 .options{
-    width: 1000px;
-    height: 200px;
-    background-color: blue;
+    width: 300px;
+    height: 100px;
+    background-color: darkgrey;
     margin: auto;
+    font-size: 2rem;
+    border-radius: 5px;
+}
+
+#box-options{
+    display: flex;
+    width: 1000px;
+    align-self: center;
 }
 
 .subcontainer{
@@ -37,4 +48,13 @@ body{
 
 .options{
     color: white;
+}
+
+button {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+	outline: inherit;
 }
